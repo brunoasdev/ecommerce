@@ -35,8 +35,4 @@ public class Product {
     @Field(type = FieldType.Integer)
     private Integer quantity;
 
-    @CreatedDate
-    @Field(type = FieldType.Date)
-    private LocalDate created;
-
 }
