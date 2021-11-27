@@ -14,7 +14,9 @@ import java.math.BigDecimal;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class AddProductDTO {
+public class ProductDTO {
+
+    private String id;
 
     @NotEmpty(message = "Name is mandatory.")
     @Size(min = 3, max = 30, message = "Minimum {min} and maximum {max} characters.")
